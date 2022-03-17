@@ -160,11 +160,10 @@ class ExtruderSimulation(SimulatorSession):
 
 def main():
 
+    dotenv.load_dotenv(".env", override=True)
+
     workspace = os.getenv("SIM_WORKSPACE")
     access_key = os.getenv("SIM_ACCESS_KEY")
-
-    # values in `.env`, if they exist, take priority over environment variables
-    dotenv.load_dotenv(".env", override=True)
 
     if workspace is None:
         raise ValueError("The Bonsai workspace ID is not set.")

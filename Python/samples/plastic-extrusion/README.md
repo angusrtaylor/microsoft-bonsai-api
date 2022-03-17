@@ -32,12 +32,19 @@ A trained Bonsai brain can make continuous adjustments to optimize product quali
 
 Note: installing the Bonsai API, CLI, and supporting packages in a virtual environment, e.g. with `conda` or `virtualenv`, is strongly recommended.
 
+```sh
+git clone https://github.com/angusrtaylor/microsoft-bonsai-api.git
+cd microsoft-bonsai-api/Python/samples/plastic-extrusion
+source env/bin/activate
+pip install -r requirements.txt -r local-requirements.txt
+```
+
 ### Running the Simulator Locally
 
-1. Clone the repo to your local machine.
-2. Create a new `.env` file in the root of the repo and add your workspace credentials.  See `template.env` for an example.
-3. Build a local Docker container with `docker build -t extrusion .`
-4. Run the local Docker container with `docker run --env-file .env extrusion`
+1. Create a new `.env` file in the root of the repo and add your workspace credentials.  See `template_env` for an example.
+2. Test in local environment with `python main.py`
+2. Build a local Docker container with `docker build -t extrusion .`
+3. Run the local Docker container with `docker run --env-file .env extrusion`
 
 You can now create and train a new brain with the Bonsai web interface or the CLI using the locally running simulator.
 
@@ -46,26 +53,29 @@ You can now create and train a new brain with the Bonsai web interface or the CL
 Unmanaged simulators can only run a single simulation instance for brain training.  To scale up the simulator, we will need to package it into a Docker container on Azure Container Registry (ACR).  (Creating a Bonsai workspace automatically provisions an associated ACR instance.)
 
 ```sh
+export RegistryName="<ACR name>";
+export BonsaiRG="<Bonsai provisioned resource group>";
+export ImageName="extrusion";
+export SimulatorName="PVC_Extruder";
+
+az login #--use-device-code
+
 az acr login --name $RegistryName
 
 az acr build \
     --image $ImageName \
     --registry $RegistryName \
+    --resource-group $BonsaiRG \
     --file Dockerfile .
 
 bonsai simulator package container create \
     --name $SimulatorName \
     --image-uri "$RegistryName.azurecr.io/$ImageName" \
-    --instance-count 25 \
     --max-instance-count 25 \
     --cores-per-instance 1 \
     --memory-in-gb-per-instance 1 \
     --os-type Linux
 ```
-
-- `$RegistryName` is the name of your ACR instance,
-- `$ImageName` is the name and tag of your container image, e.g. `extrusion:v1`, and
-- `$SimulatorName` is the name of your simulator in the Bonsai workspace.
 
 Note: On PowerShell, replace the backslash ("\\") with a backtick ("`").
 
@@ -74,26 +84,51 @@ Note: On PowerShell, replace the backslash ("\\") with a backtick ("`").
 Now that the simulator is connected to the Bonsai platform, we can use it to train a brain.  First, create a new brain with the UI or the CLI.
 
 ```sh
-bonsai brain create --name $BrainName
+export SingleGoalBrain="ExtrusionSingleGoal";
+export MultiGoalBrain="ExtrusionMultiGoal";
+bonsai brain create --name $SingleGoalBrain;
+bonsai brain create --name $MultiGoalBrain;
 ```
 
 Next, upload the Inkling file (either `single.ink` for the single concept version, or `multi.ink` for the multi-concept version).
 
 ```sh
 bonsai brain version update-inkling \
-    --name $BrainName \
-    --file $InklingFile
+    --name $SingleGoalBrain \
+    --file "./inkling/single.ink"
+
+bonsai brain version update-inkling \
+    --name $MultiGoalBrain \
+    --file "./inkling/multi.ink"
 ```
 
-Finally, start a brain training session.
+Finally, start a brain training session. The `log-session-count` parameter outputs simulator logs to Log Analytics.
 
 ```sh
 bonsai brain version start-training \
-    --name $BrainName \
-    --simulator-package-name $SimulatorName
+  --name=$SingleGoalBrain \
+  --simulator-package-name=$SimulatorName \
+  --instance-count=4 \
+  --log-session-count=4
 ```
 
 Note: when training multiconcept brains, you'll also need to specify the concept with `--concept-name $ConceptName`.
+
+```sh
+bonsai brain version start-training \
+  --name=$MultiGoalBrain \
+  --simulator-package-name=$SimulatorName \
+  --instance-count=4 \
+  --log-session-count=4 \
+  --concept-name="ControlLength"
+
+bonsai brain version start-training \
+  --name=$MultiGoalBrain \
+  --simulator-package-name=$SimulatorName \
+  --instance-count=4 \
+  --log-session-count=4 \
+  --concept-name="ControlYield"
+```
 
 ## Keywords
 
