@@ -1,1 +1,4 @@
 bonsai-cli
+jupyter
+Kqlmagic==0.1.113.post1
+pandas
