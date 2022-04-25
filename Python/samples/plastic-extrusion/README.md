@@ -43,8 +43,8 @@ pip install -r requirements.txt -r local-requirements.txt
 
 1. Create a new `.env` file in the root of the repo and add your workspace credentials.  See `template_env` for an example.
 2. Test in local environment with `python main.py`
-2. Build a local Docker container with `docker build -t extrusion .`
-3. Run the local Docker container with `docker run --env-file .env extrusion`
+2. Build a local Docker container with `docker build -t extrusion_variable .`
+3. Run the local Docker container with `docker run --env-file .env extrusion_variable`
 
 You can now create and train a new brain with the Bonsai web interface or the CLI using the locally running simulator.
 
@@ -55,8 +55,8 @@ Unmanaged simulators can only run a single simulation instance for brain trainin
 ```sh
 export RegistryName="<ACR name>";
 export BonsaiRG="<Bonsai provisioned resource group>";
-export ImageName="extrusion";
-export SimulatorName="PVC_Extruder";
+export ImageName="extrusion_variable";
+export SimulatorName="PVC_Extruder_Variable";
 
 az login #--use-device-code
 
@@ -84,8 +84,8 @@ Note: On PowerShell, replace the backslash ("\\") with a backtick ("`").
 Now that the simulator is connected to the Bonsai platform, we can use it to train a brain.  First, create a new brain with the UI or the CLI.
 
 ```sh
-export SingleGoalBrain="ExtrusionSingleGoal";
-export MultiGoalBrain="ExtrusionMultiGoal";
+export SingleGoalBrain="ExtrusionVariable";
+export MultiGoalBrain="ExtrusionVariableMulti";
 bonsai brain create --name $SingleGoalBrain;
 bonsai brain create --name $MultiGoalBrain;
 ```

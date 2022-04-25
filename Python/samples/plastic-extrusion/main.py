@@ -42,7 +42,7 @@ class ExtruderSimulation(SimulatorSession):
         T : float, optional
             Initial temperature (Kelvin).
         L0 : float, optional
-            Initial product length (meters).
+            Target product length (meters).
         ε : float, optional
             Product tolerance (meters).
         """
@@ -90,6 +90,7 @@ class ExtruderSimulation(SimulatorSession):
             f0_c=config.get("initial_cutter_frequency"),
             Δf0_c=config.get("initial_cutter_acceleration"),
             T=config.get("initial_temperature"),
+            L0=config.get("target_length")
         )
 
     def step(self):
@@ -108,7 +109,7 @@ class ExtruderSimulation(SimulatorSession):
         self.f_c += Δt * self.Δf_eff
 
         model = em.ExtrusionModel(
-            ω=self.ω_s, Δω=self.Δω_eff, f_c=self.f_c, T=self.T, Δt=Δt
+            ω=self.ω_s, Δω=self.Δω_eff, f_c=self.f_c, T=self.T, Δt=Δt, L0=self.L0
         )
 
         self.T += model.ΔT
@@ -139,6 +140,7 @@ class ExtruderSimulation(SimulatorSession):
             "product_length": self.L,
             "flow_rate": self.Q,
             "yield": self.yield_,
+            "target_length": self.L0
         }
 
     def halted(self) -> bool:

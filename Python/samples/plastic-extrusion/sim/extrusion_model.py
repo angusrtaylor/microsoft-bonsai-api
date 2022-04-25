@@ -17,6 +17,7 @@ class ExtrusionModel:
     T: float  # Kelvin
     ΔT: float = 0  # Kelvin
     Δt: float = 1  # second
+    L0: float = 1 * 12 * units.METERS_PER_INCH
 
     # screw parameters
     D: float = 2.5 * units.METERS_PER_INCH  # meters
@@ -39,7 +40,6 @@ class ExtrusionModel:
     n: float = 0.26  # (dimensionless)
 
     # desired part specifications
-    L0: float = 1 * 12 * units.METERS_PER_INCH
     ε: float = 0.1 * units.METERS_PER_INCH
 
     def __post_init__(self):

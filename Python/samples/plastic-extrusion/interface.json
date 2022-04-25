@@ -39,6 +39,13 @@
                         "category": "Number",
                         "comment": "Initial temperature of material (Kelvin)"
                     }
+                },
+                {
+                    "name": "target_length",
+                    "type": {
+                        "category": "Number",
+                        "comment": "Target length of product (meters)"
+                    }
                 }
             ]
         },
@@ -118,6 +125,13 @@
                     "type": {
                         "category": "Number",
                         "comment": "Instantaneous manufacturing yield, i.e. the number of good parts per iteration (dimensionless)"
+                    }
+                },
+                {
+                    "name": "target_length",
+                    "type": {
+                        "category": "Number",
+                        "comment": "Target length of product (meters)"
                     }
                 }
             ]
