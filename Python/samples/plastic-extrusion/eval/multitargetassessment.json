@@ -1,0 +1,806 @@
+{
+  "version": "1.0.0",
+  "context": {},
+  "episodeConfigurations": [
+    {
+      "initial_screw_angular_speed": 8.240933741236093,
+      "initial_cutter_frequency": 0.3721564971432091,
+      "initial_screw_angular_acceleration": 0.015797395149354368,
+      "initial_cutter_acceleration": -0.0052912877540532656,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 4.283822261365463,
+      "initial_cutter_frequency": 0.06331528397030714,
+      "initial_screw_angular_acceleration": 0.009708494800202028,
+      "initial_cutter_acceleration": -0.0069319190666786296,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 6.812798321147146,
+      "initial_cutter_frequency": 0.2244753223077599,
+      "initial_screw_angular_acceleration": 0.00945458469382425,
+      "initial_cutter_acceleration": 0.001456528564935113,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 7.5062807852527484,
+      "initial_cutter_frequency": 0.11075314438656855,
+      "initial_screw_angular_acceleration": -0.016080453313601563,
+      "initial_cutter_acceleration": -0.007935185678531277,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 6.4924171568075995,
+      "initial_cutter_frequency": 0.08616092113104887,
+      "initial_screw_angular_acceleration": 0.001367146183105808,
+      "initial_cutter_acceleration": -0.0035353310548482545,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 6.461925874378079,
+      "initial_cutter_frequency": 0.16538893551602507,
+      "initial_screw_angular_acceleration": 0.007337498046868628,
+      "initial_cutter_acceleration": 0.000797835437552713,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 2.696451703062494,
+      "initial_cutter_frequency": 0.11904667026275491,
+      "initial_screw_angular_acceleration": -0.00032464619452653165,
+      "initial_cutter_acceleration": -0.008085203045024148,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 2.5543710720158765,
+      "initial_cutter_frequency": 0.14540026598247596,
+      "initial_screw_angular_acceleration": 0.004749042757169558,
+      "initial_cutter_acceleration": -0.005760434276604408,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.326872104856108,
+      "initial_cutter_frequency": 0.12583127271364203,
+      "initial_screw_angular_acceleration": -0.0044637688999520815,
+      "initial_cutter_acceleration": 0.0014084477898136903,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 5.172681566242117,
+      "initial_cutter_frequency": 0.25836145142455036,
+      "initial_screw_angular_acceleration": -0.004430395389023161,
+      "initial_cutter_acceleration": -0.005972858473316475,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 6.40046169533307,
+      "initial_cutter_frequency": 0.26277369946072426,
+      "initial_screw_angular_acceleration": 0.0018118886452979585,
+      "initial_cutter_acceleration": -0.00219722420279307,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 3.943698664092128,
+      "initial_cutter_frequency": 0.1404155483169968,
+      "initial_screw_angular_acceleration": 0.016349147032550318,
+      "initial_cutter_acceleration": -0.005756402635349478,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 6.578806843176948,
+      "initial_cutter_frequency": 0.28094349724923134,
+      "initial_screw_angular_acceleration": 0.006520780083920961,
+      "initial_cutter_acceleration": -0.0036321396715029456,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.5211235462549215,
+      "initial_cutter_frequency": 0.18002631138429906,
+      "initial_screw_angular_acceleration": 0.011306387023468645,
+      "initial_cutter_acceleration": 0.008399404777276739,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 7.082912972429377,
+      "initial_cutter_frequency": 0.28660893978953206,
+      "initial_screw_angular_acceleration": -0.012426795567443805,
+      "initial_cutter_acceleration": 0.0074379026347741115,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 6.564174490967154,
+      "initial_cutter_frequency": 0.3628433574218711,
+      "initial_screw_angular_acceleration": -0.01228836569787721,
+      "initial_cutter_acceleration": 0.00801905078459602,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 3.9151906940580643,
+      "initial_cutter_frequency": 0.3744453606115674,
+      "initial_screw_angular_acceleration": -0.009067015163484697,
+      "initial_cutter_acceleration": 0.009611260074807941,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.646979429052381,
+      "initial_cutter_frequency": 0.34009433574522024,
+      "initial_screw_angular_acceleration": 0.01428093372834472,
+      "initial_cutter_acceleration": -0.00739716309374636,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 7.7267520384910675,
+      "initial_cutter_frequency": 0.2030247246502766,
+      "initial_screw_angular_acceleration": 0.014931501895773615,
+      "initial_cutter_acceleration": 0.0069294276547279855,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.012950788562716,
+      "initial_cutter_frequency": 0.28639613636809913,
+      "initial_screw_angular_acceleration": -0.016663919822455325,
+      "initial_cutter_acceleration": -0.003114209614473433,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 2.272937612865057,
+      "initial_cutter_frequency": 0.25723675259914947,
+      "initial_screw_angular_acceleration": 0.00673543509971675,
+      "initial_cutter_acceleration": 0.0007543819564897088,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.4027403485670353,
+      "initial_cutter_frequency": 0.2962604085766316,
+      "initial_screw_angular_acceleration": -0.016190894315009453,
+      "initial_cutter_acceleration": -0.0037624483683354063,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 7.629723856860899,
+      "initial_cutter_frequency": 0.28803417074011084,
+      "initial_screw_angular_acceleration": -0.004660479459529236,
+      "initial_cutter_acceleration": -0.00041909292902041553,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 4.428719567531056,
+      "initial_cutter_frequency": 0.37739681121067564,
+      "initial_screw_angular_acceleration": 0.016312748657188313,
+      "initial_cutter_acceleration": -0.005906801109330327,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 2.3292513388651077,
+      "initial_cutter_frequency": 0.27560934137362725,
+      "initial_screw_angular_acceleration": -0.014998788849051575,
+      "initial_cutter_acceleration": -0.008453821339340977,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 7.121756442774206,
+      "initial_cutter_frequency": 0.10526676868395857,
+      "initial_screw_angular_acceleration": 0.017121297856995836,
+      "initial_cutter_acceleration": 0.0028937686023152564,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 7.2051785080554165,
+      "initial_cutter_frequency": 0.27051430360792716,
+      "initial_screw_angular_acceleration": -0.012986542968604015,
+      "initial_cutter_acceleration": 0.004072726303317502,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 7.1752781096860625,
+      "initial_cutter_frequency": 0.24295516643667672,
+      "initial_screw_angular_acceleration": 0.011060917793368617,
+      "initial_cutter_acceleration": -0.005232795927719521,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 5.857256592982106,
+      "initial_cutter_frequency": 0.29676642946685605,
+      "initial_screw_angular_acceleration": -0.019719302035534608,
+      "initial_cutter_acceleration": 0.005257581755662865,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 5.894887106792664,
+      "initial_cutter_frequency": 0.09123807047575558,
+      "initial_screw_angular_acceleration": 0.018258562646734748,
+      "initial_cutter_acceleration": 0.007201326740666449,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 5.95383159023358,
+      "initial_cutter_frequency": 0.09001229168965094,
+      "initial_screw_angular_acceleration": 0.008641920625348049,
+      "initial_cutter_acceleration": 0.009289571300404996,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 7.539997310201612,
+      "initial_cutter_frequency": 0.3737082676127232,
+      "initial_screw_angular_acceleration": -0.015844642318241883,
+      "initial_cutter_acceleration": -0.006822329388471517,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 8.127820447620092,
+      "initial_cutter_frequency": 0.10262152486224554,
+      "initial_screw_angular_acceleration": -0.018774147808185565,
+      "initial_cutter_acceleration": 0.007550163337272535,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 5.679641549475596,
+      "initial_cutter_frequency": 0.39404287816900485,
+      "initial_screw_angular_acceleration": 0.012464006498807759,
+      "initial_cutter_acceleration": 0.0050989463708439545,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.938297700347353,
+      "initial_cutter_frequency": 0.16498094209136377,
+      "initial_screw_angular_acceleration": 0.007199661651240988,
+      "initial_cutter_acceleration": 0.0003847656662472436,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 6.978500544865572,
+      "initial_cutter_frequency": 0.1611071468133417,
+      "initial_screw_angular_acceleration": 0.010574826499965342,
+      "initial_cutter_acceleration": 0.0022882440982362716,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 5.545056641142097,
+      "initial_cutter_frequency": 0.33195066380667365,
+      "initial_screw_angular_acceleration": -0.006740991193693953,
+      "initial_cutter_acceleration": 0.0027289946155212,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.264227343382519,
+      "initial_cutter_frequency": 0.365370904381904,
+      "initial_screw_angular_acceleration": 0.015747213310586913,
+      "initial_cutter_acceleration": -0.000994628825960896,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 6.400483724165607,
+      "initial_cutter_frequency": 0.30688707122103037,
+      "initial_screw_angular_acceleration": -0.0010438737496495584,
+      "initial_cutter_acceleration": 0.005675590522652856,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.8975702385703315,
+      "initial_cutter_frequency": 0.1665895503576199,
+      "initial_screw_angular_acceleration": 0.012466553596135313,
+      "initial_cutter_acceleration": 0.005672839880369724,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 7.674456823910933,
+      "initial_cutter_frequency": 0.06450184231487084,
+      "initial_screw_angular_acceleration": 0.007810430453656689,
+      "initial_cutter_acceleration": -0.008012098141283043,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 3.2921334343719213,
+      "initial_cutter_frequency": 0.27001405270854983,
+      "initial_screw_angular_acceleration": -0.015160006669767676,
+      "initial_cutter_acceleration": -0.005871328441359317,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 7.669011354467456,
+      "initial_cutter_frequency": 0.19733092211802047,
+      "initial_screw_angular_acceleration": 0.004410954330707279,
+      "initial_cutter_acceleration": 0.0040290055854832856,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 2.9809506062060427,
+      "initial_cutter_frequency": 0.09267551481964743,
+      "initial_screw_angular_acceleration": 0.011012728617503409,
+      "initial_cutter_acceleration": 0.008164967162470272,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.786287172012717,
+      "initial_cutter_frequency": 0.1920363084747314,
+      "initial_screw_angular_acceleration": -0.0017299753672232118,
+      "initial_cutter_acceleration": -0.0033681579558849034,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 3.1338332935044386,
+      "initial_cutter_frequency": 0.3775225388705214,
+      "initial_screw_angular_acceleration": 0.011125859834631109,
+      "initial_cutter_acceleration": 0.00200575534714368,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.285011191055011,
+      "initial_cutter_frequency": 0.30697263237000605,
+      "initial_screw_angular_acceleration": -0.01738889713300732,
+      "initial_cutter_acceleration": 0.002911844543878172,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 2.3170625779148195,
+      "initial_cutter_frequency": 0.18241704981047757,
+      "initial_screw_angular_acceleration": 0.005022587292488452,
+      "initial_cutter_acceleration": -0.009214737344896012,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.948156263802697,
+      "initial_cutter_frequency": 0.25689688405173594,
+      "initial_screw_angular_acceleration": -0.005824638268912118,
+      "initial_cutter_acceleration": -0.004920836950242007,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 5.085026755778414,
+      "initial_cutter_frequency": 0.3077970668965082,
+      "initial_screw_angular_acceleration": 0.00882356260249946,
+      "initial_cutter_acceleration": 0.007842240694152909,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 7.53028862796827,
+      "initial_cutter_frequency": 0.39191095006584115,
+      "initial_screw_angular_acceleration": -0.008305615010565811,
+      "initial_cutter_acceleration": -0.000393276706833208,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 4.746561362771336,
+      "initial_cutter_frequency": 0.36721034477497605,
+      "initial_screw_angular_acceleration": -0.003656087952229929,
+      "initial_cutter_acceleration": -0.002595904502558165,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 5.6795143365444165,
+      "initial_cutter_frequency": 0.17742732646797094,
+      "initial_screw_angular_acceleration": 0.0065818580258242415,
+      "initial_cutter_acceleration": 0.0016626440151025212,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 5.174300592940707,
+      "initial_cutter_frequency": 0.3438265087156151,
+      "initial_screw_angular_acceleration": -0.0006334120627250125,
+      "initial_cutter_acceleration": 0.0008375100189751284,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 3.0082649920996674,
+      "initial_cutter_frequency": 0.27008467953300574,
+      "initial_screw_angular_acceleration": -0.011468840669651412,
+      "initial_cutter_acceleration": -0.00800442813459031,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 4.7606276023507,
+      "initial_cutter_frequency": 0.20011077150950735,
+      "initial_screw_angular_acceleration": -0.00017505216759784725,
+      "initial_cutter_acceleration": -0.006712696454532168,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 4.274468896687543,
+      "initial_cutter_frequency": 0.1625985622366346,
+      "initial_screw_angular_acceleration": 0.01559450146136706,
+      "initial_cutter_acceleration": -0.0064859830060770545,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 8.29762345250306,
+      "initial_cutter_frequency": 0.11837908073148037,
+      "initial_screw_angular_acceleration": 0.0035047428955031733,
+      "initial_cutter_acceleration": -0.0022032480260092196,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 7.088172516493121,
+      "initial_cutter_frequency": 0.20540365355881685,
+      "initial_screw_angular_acceleration": 0.011317704109919308,
+      "initial_cutter_acceleration": -0.006735095247417789,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 2.733665612439486,
+      "initial_cutter_frequency": 0.12167271193353786,
+      "initial_screw_angular_acceleration": -0.01588567838335885,
+      "initial_cutter_acceleration": -0.009811048727824987,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 6.339439804292365,
+      "initial_cutter_frequency": 0.2974499879118465,
+      "initial_screw_angular_acceleration": -0.004500258789088735,
+      "initial_cutter_acceleration": 0.008391486384421758,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 6.938724989683965,
+      "initial_cutter_frequency": 0.16065655230220638,
+      "initial_screw_angular_acceleration": -0.00592105177603112,
+      "initial_cutter_acceleration": -0.001296945906778802,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.2002832402118617,
+      "initial_cutter_frequency": 0.1916152641256188,
+      "initial_screw_angular_acceleration": -0.0077434409892245554,
+      "initial_cutter_acceleration": -0.007660353294945153,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 6.957439347116793,
+      "initial_cutter_frequency": 0.3870646187580392,
+      "initial_screw_angular_acceleration": 0.011766790861828504,
+      "initial_cutter_acceleration": -0.00827886126232218,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 2.149436741058227,
+      "initial_cutter_frequency": 0.30657508584283233,
+      "initial_screw_angular_acceleration": -0.004504920667790305,
+      "initial_cutter_acceleration": 0.008639930383751313,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.828931893618514,
+      "initial_cutter_frequency": 0.3453794375919298,
+      "initial_screw_angular_acceleration": -0.00943139741193812,
+      "initial_cutter_acceleration": -0.0009299448361732975,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 5.408855462357679,
+      "initial_cutter_frequency": 0.2749276976139403,
+      "initial_screw_angular_acceleration": 0.012074585537513963,
+      "initial_cutter_acceleration": -0.005557605861416142,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 7.316335942663356,
+      "initial_cutter_frequency": 0.3753630126100169,
+      "initial_screw_angular_acceleration": 0.011500371722043302,
+      "initial_cutter_acceleration": 0.0045661299302215425,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 2.1814066738787083,
+      "initial_cutter_frequency": 0.37915378237314185,
+      "initial_screw_angular_acceleration": 0.02035461193132059,
+      "initial_cutter_acceleration": 0.00696557531079247,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.456443323427519,
+      "initial_cutter_frequency": 0.07648954630327864,
+      "initial_screw_angular_acceleration": 0.019626939274737153,
+      "initial_cutter_acceleration": 0.0034096751562741404,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.59751995207437,
+      "initial_cutter_frequency": 0.20307147777434711,
+      "initial_screw_angular_acceleration": -0.008824837272625395,
+      "initial_cutter_acceleration": -0.008565573814737684,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 3.255369633178909,
+      "initial_cutter_frequency": 0.37332517877979604,
+      "initial_screw_angular_acceleration": -0.000132646729333101,
+      "initial_cutter_acceleration": 0.0048598511504669446,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 3.425704344629079,
+      "initial_cutter_frequency": 0.37772995467854764,
+      "initial_screw_angular_acceleration": -0.012611120004392332,
+      "initial_cutter_acceleration": 0.005272749129154557,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 3.1415625057499215,
+      "initial_cutter_frequency": 0.13027658116736313,
+      "initial_screw_angular_acceleration": -0.0009419730903563392,
+      "initial_cutter_acceleration": -0.0072334689761976,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 6.478762625231844,
+      "initial_cutter_frequency": 0.09734772970955663,
+      "initial_screw_angular_acceleration": 0.0070923991815084395,
+      "initial_cutter_acceleration": -0.0067849125450717,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 7.17622171949138,
+      "initial_cutter_frequency": 0.28498404763077356,
+      "initial_screw_angular_acceleration": 0.0151522632815895,
+      "initial_cutter_acceleration": -0.005919048592752528,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 2.8532337963059407,
+      "initial_cutter_frequency": 0.32572265157164737,
+      "initial_screw_angular_acceleration": -0.015291137052206987,
+      "initial_cutter_acceleration": 0.008359897743511178,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 2.7116707904293316,
+      "initial_cutter_frequency": 0.2926874524069668,
+      "initial_screw_angular_acceleration": 0.0073294325771744925,
+      "initial_cutter_acceleration": 0.005267867824260362,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 3.4595854586326666,
+      "initial_cutter_frequency": 0.2445806141744404,
+      "initial_screw_angular_acceleration": -0.008473211748925711,
+      "initial_cutter_acceleration": 0.0036138141529065432,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 7.68437279564876,
+      "initial_cutter_frequency": 0.06666612077435603,
+      "initial_screw_angular_acceleration": 0.0023740452655924664,
+      "initial_cutter_acceleration": -0.009776147235343858,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.754680691583557,
+      "initial_cutter_frequency": 0.16448699778258918,
+      "initial_screw_angular_acceleration": -0.013108699376232094,
+      "initial_cutter_acceleration": -0.0016122675145220696,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 7.592875018303814,
+      "initial_cutter_frequency": 0.14408869759496282,
+      "initial_screw_angular_acceleration": 0.007877103314063445,
+      "initial_cutter_acceleration": -0.003006423114879167,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.8177061640282397,
+      "initial_cutter_frequency": 0.07459799291053082,
+      "initial_screw_angular_acceleration": -0.01404290370868361,
+      "initial_cutter_acceleration": -0.003286632632221294,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 5.015044195238603,
+      "initial_cutter_frequency": 0.09268860196276889,
+      "initial_screw_angular_acceleration": -0.006792567647360321,
+      "initial_cutter_acceleration": 0.00048130702641682906,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 4.022052486819848,
+      "initial_cutter_frequency": 0.11296184485384453,
+      "initial_screw_angular_acceleration": -0.005704679741193139,
+      "initial_cutter_acceleration": -0.004682123407326289,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 5.105839335669714,
+      "initial_cutter_frequency": 0.06171965920208242,
+      "initial_screw_angular_acceleration": -0.003757603386251876,
+      "initial_cutter_acceleration": -0.0037764381317665534,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 4.066460143577739,
+      "initial_cutter_frequency": 0.28846839725265727,
+      "initial_screw_angular_acceleration": 0.00526835191876035,
+      "initial_cutter_acceleration": -0.0012598792246092672,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 4.55748539754285,
+      "initial_cutter_frequency": 0.15621380911792176,
+      "initial_screw_angular_acceleration": 0.020402003317545485,
+      "initial_cutter_acceleration": -0.004192257237317551,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 3.48356361324969,
+      "initial_cutter_frequency": 0.39213488462127305,
+      "initial_screw_angular_acceleration": 0.00971508412871775,
+      "initial_cutter_acceleration": 2.9982349641563544e-7,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 3.7832449605873704,
+      "initial_cutter_frequency": 0.3170007738455141,
+      "initial_screw_angular_acceleration": -0.009371674961206607,
+      "initial_cutter_acceleration": -0.007292353081103908,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 7.206341089942684,
+      "initial_cutter_frequency": 0.36972823194496474,
+      "initial_screw_angular_acceleration": 0.008225550185545522,
+      "initial_cutter_acceleration": -0.009434027479871758,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 6.108185523963561,
+      "initial_cutter_frequency": 0.29795758606725653,
+      "initial_screw_angular_acceleration": 0.011638149570740892,
+      "initial_cutter_acceleration": -0.008395249539026766,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 5.599354183630496,
+      "initial_cutter_frequency": 0.3096991117657199,
+      "initial_screw_angular_acceleration": 0.015039048212294633,
+      "initial_cutter_acceleration": 0.00842602443163852,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 7.038672821873328,
+      "initial_cutter_frequency": 0.2292672051806144,
+      "initial_screw_angular_acceleration": -0.014587495222067648,
+      "initial_cutter_acceleration": 0.007596111169988394,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    },
+    {
+      "initial_screw_angular_speed": 3.517166586513527,
+      "initial_cutter_frequency": 0.2540482024534333,
+      "initial_screw_angular_acceleration": 0.005714468054657321,
+      "initial_cutter_acceleration": 0.007781272070194734,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 6.189868467721024,
+      "initial_cutter_frequency": 0.20736888368881448,
+      "initial_screw_angular_acceleration": -0.017162893619125333,
+      "initial_cutter_acceleration": 0.00934327801196972,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 2.1705352333120533,
+      "initial_cutter_frequency": 0.2350190000569254,
+      "initial_screw_angular_acceleration": -0.0018436833319805286,
+      "initial_cutter_acceleration": -0.0022555219826917838,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 2.482939175751723,
+      "initial_cutter_frequency": 0.3040142126189324,
+      "initial_screw_angular_acceleration": -0.004192442028273749,
+      "initial_cutter_acceleration": -0.005912953088022918,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.15240000188350677
+    },
+    {
+      "initial_screw_angular_speed": 3.7683907700229087,
+      "initial_cutter_frequency": 0.35290979505968784,
+      "initial_screw_angular_acceleration": -0.015948059479002647,
+      "initial_cutter_acceleration": -0.0037472928542000893,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.45719999074935913
+    },
+    {
+      "initial_screw_angular_speed": 3.6675142611095657,
+      "initial_cutter_frequency": 0.3556584483879579,
+      "initial_screw_angular_acceleration": -0.009448054014967436,
+      "initial_cutter_acceleration": 0.004249668857304267,
+      "initial_temperature": 463.1499938964844,
+      "target_length": 0.30480000376701355
+    }
+  ]
+}
